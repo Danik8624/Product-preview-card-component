@@ -87,6 +87,7 @@ h4 {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    transition: background-color 0.3s linear;
 }
 
 .btn:hover {
