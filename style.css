@@ -90,7 +90,8 @@ h4 {
 }
 
 .btn:hover {
-    background-color:hsl(156, 42%, 18%); ;
+    background-color:hsl(156, 42%, 18%);
+    cursor: pointer;
 }
 
 .icon {
