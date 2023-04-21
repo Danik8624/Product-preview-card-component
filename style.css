@@ -82,11 +82,15 @@ h4 {
     border: none;
     padding: 15px 85px;
     font-size: 13px;
-    background-color: hsl(156, 42%, 18%);
+    background-color: hsl(158, 36%, 37%);
     border-radius: 10px;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     color: white;
+}
+
+.btn:hover {
+    background-color:hsl(156, 42%, 18%); ;
 }
 
 .icon {
