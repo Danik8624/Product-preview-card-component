@@ -1,0 +1,112 @@
+html {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.main {
+    /* width: 667px; */
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    grid-column-start:2 ;
+    grid-column-end:span 1 ;
+    grid-row-start:2 ;
+    grid-row-end:span 1 ;
+
+    width: 40em;
+    height: auto;
+    border-radius: 15px;
+    
+}
+
+img {
+    width: 20em;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.mobile img {
+    display: none;
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    max-height: 900px;
+}
+.text {
+padding: 20px; 
+}
+
+.price {
+    display: inline-block;
+}
+
+.btn {
+   display: block;
+   margin: 0 auto;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    line-height: 20px;
+}
+
+h4 {
+    font-family: 'Fraunces', serif;
+    font-size: 35px;
+    color:hsl(212, 21%, 14%);
+    margin: auto;
+}
+
+.new {
+    font-family: 'Fraunces', serif;
+    font-size: 35px;
+    color: hsl(158, 36%, 37%);
+    padding-right: 15%;
+}
+
+.old {
+    text-decoration:line-through;
+}
+
+.perfume {
+    letter-spacing: 5px;
+    font-size: 13px;
+}
+
+.btn {
+    border: none;
+    padding: 15px 85px;
+    font-size: 13px;
+    background-color: hsl(156, 42%, 18%);
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.icon {
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+
+@media only screen and (max-width: 660px) {
+    .main {
+        grid-template-columns: 1fr;
+        width: 20em;
+        height: auto;
+          }
+          img {
+            width: 100%; 
+            height: 300px; 
+            object-fit: cover;
+            object-position: 25% 25%;
+            border-top-right-radius: 15px;
+            border-bottom-left-radius: 0;
+          }
+    }
